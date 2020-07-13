@@ -12,11 +12,14 @@ Remember to use descriptive variable names!
 
 // 1. Store your current age into a variable.
 // Hint: let age = ...;
+    let age = 21
 
 // 2. Store a maximum age into a variable.
+    x = maximum age
 
 // 3. Store an estimated amount per day (as a number).
 // For example 1, for 1 bag of chips per day.
+
 
 // 4. Calculate how many you would eat total for the rest of your life.
 // Store the result in a variable.
@@ -35,14 +38,18 @@ your age given your birth year and a year in the future.
 */
 
 // 1. Store your birth year in a variable.
+    let birthYear = 1999
 
 // 2. Store a future year in a variable.
+    futureYear = 2045
 
 // 3. Calculate your 2 possible ages for that year based on the stored values.
 // For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
+    birthYear - futureYear = age
 
 // 4. Create a variable called message which describes the result.
 // "I will be either NN or NN in YYYY", substituting the values.
+"I will be either "
 
 // 5. console.log() your message.
 
