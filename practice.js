@@ -25,7 +25,7 @@ Remember to use descriptive variable names!
 // Store the result in a variable.
 // Hint: There are 365 days in a year, multiply that by the number of years and the amount per day...
     // 89 - 21 = 68, 365 * 5 = 1,825 * 68 = 124,100
-    let answer = ((89 - 21) * (356 * 5));
+    let answer = ((89 - 21) * (365 * 5));
     console.log(answer)
 // 5. Create a variable called message describing your result.
 // "You will need NN to last you until the ripe old age of X".
