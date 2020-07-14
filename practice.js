@@ -15,11 +15,11 @@ Remember to use descriptive variable names!
     let age = 21
 
 // 2. Store a maximum age into a variable.
-    x = maximum age
+    let x = 89
 
 // 3. Store an estimated amount per day (as a number).
 // For example 1, for 1 bag of chips per day.
-
+    let dailyAmount = 5  
 
 // 4. Calculate how many you would eat total for the rest of your life.
 // Store the result in a variable.
@@ -29,7 +29,7 @@ Remember to use descriptive variable names!
 // "You will need NN to last you until the ripe old age of X".
 
 // 6. console.log() your message.
-
+    console.log(" you will NN to last until the ripe old age of X!")
 /*
 Exercise Two - Calculating your future age.
 
@@ -38,21 +38,21 @@ your age given your birth year and a year in the future.
 */
 
 // 1. Store your birth year in a variable.
-    let birthYear = 1999
+    let birthYear = 1999;
 
 // 2. Store a future year in a variable.
-    futureYear = 2045
+    let futureYear = 2045;
 
 // 3. Calculate your 2 possible ages for that year based on the stored values.
 // For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
-    birthYear - futureYear = age
+    let currentAge = futureYear - birthYear;
 
 // 4. Create a variable called message which describes the result.
 // "I will be either NN or NN in YYYY", substituting the values.
-"I will be either "
+"I will be either" == currentAge in 2045
 
 // 5. console.log() your message.
-
+    console.log("you're really old!")
 /*
 Exercise Three - Temperature Converter
 
@@ -65,13 +65,15 @@ Fahrenheit to Celcius:  Deduct 32, then multiply by 5, then divide by 9
 
 // 1. Store a celsius temperature into a variable.
 // Hint: let tempInCelcius = 32;
-
+    let tempInCelcius = 32;
 // 2. Convert it to fahrenheit and store that in a new variable.
-
+    // 32/5 * 9 + 32 = 89.6
 // 3. Output to console.log() in the format "NN°C is NN°F".
-
+    console.log("NN C is NN F")
 // 4. Now store a fahrenheit temperature into a variable.
-
+    let tempInFahrenheit = 60;
 // 5. Convert it to celsius  and store that in a new variable.
-
+    // 60 - 32 * 5 / 9 = 42.2
+    tempInFahrenheit to tempInCelcius = 42.2
 // 6. Output to console.log() in the format "NN°F is NN°C."
+    console.log("60 F is 42 C")
