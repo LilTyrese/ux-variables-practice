@@ -52,7 +52,7 @@ your age given your birth year and a year in the future.
 
 // 4. Create a variable called message which describes the result.
 // "I will be either NN or NN in YYYY", substituting the values.
-    let message = ("I will be either " + currentAge + " or " + possibleAge + " in 2045 ")
+    message = ("I will be either " + currentAge + " or " + possibleAge + " in 2045 ")
 
 // 5. console.log() your message.
     console.log(message)
