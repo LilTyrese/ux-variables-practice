@@ -24,7 +24,7 @@ Remember to use descriptive variable names!
 // 4. Calculate how many you would eat total for the rest of your life.
 // Store the result in a variable.
 // Hint: There are 365 days in a year, multiply that by the number of years and the amount per day...
-    // 89 - 21 = 68, 365 * 5 = 1,825 * 68 = 124,100
+    // 89 - 21 = 68, 365 * 5 = 1,825 * 68 = 124,100 <-- this is just showing my work i meant to have it as just a comment
     let answer = ((89 - 21) * (365 * 5));
     console.log(answer)
 // 5. Create a variable called message describing your result.
